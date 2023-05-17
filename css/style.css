@@ -61,7 +61,7 @@ body{
   margin-left: 10px;
 }
 .btn{
-  margin-left: 380px;
+  margin-left: 80px;
 }
 .btn button{
   background-color: blue;
@@ -75,6 +75,9 @@ body{
 .top{
   width: 72vw; 
 }
+#top_img{
+  width: 100%;
+}
 #tex{
   background-color: rgb(209,236,241);
   padding: 20px;
@@ -82,7 +85,7 @@ body{
 .anima-coll{
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-  width: 73.5vw;
+  /* width: 73.5vw; */
 }
 .acard{
   width: 180px;
@@ -183,7 +186,7 @@ ul{
 }
 .Quick_Filter{
   background-color: rgb(28,28,28);
-  padding-left: 20px; 
+
 }
 .Quick_Filter h3{
   color: #f1f1f1;
@@ -192,7 +195,8 @@ ul{
 .filter_menu{
   color: #f1f1f1;
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content:space-around;
 }
 .menu_list{
   display: flex;
@@ -227,6 +231,13 @@ ul{
   border-radius: 5px;
 }
 
+.quick_filter_btn{
+  display: grid;
+}
+
+
+
+
 #One_name{
   margin: 0px;
 }
@@ -254,14 +265,7 @@ ul{
   margin: 10px;
   justify-content: space-between;
  
-}  
-
-
-
-
-
-
-
+} 
 
 .toggle {
   display: inline-block;
@@ -332,18 +336,6 @@ ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* hover */
 
 .dita_anima{
@@ -393,7 +385,7 @@ ul{
   border: none;
   border-radius: 0px 0px 10px 10px;
   background-color: blue; 
-  width: 18vw; 
+  width: 16.3vw; 
   height: 40px; 
   font-size: 20px; 
   color: white;
@@ -404,9 +396,222 @@ ul{
 #dital_anima_dital_pi{
   margin: 0px;
   color: aqua;
-  font-size: small;
+  font-size: smaller;
 }
 .dital_anima_dital_name{
   width: 200px; 
-  font-size: smaller;
+  font-size: 12px;
+}
+
+
+  
+
+
+
+@media screen and (max-width:1200px){
+
+  .serch{
+    display: none;
+  }
+  .menu_list{
+    display: block;
+  }
+  .anima-coll{
+    display: block;
+  }
+  #floater_anima{
+    display: none;
+  }
+  .cont_last{
+    display: none;
+  }
+  .btn{
+    display: none;
+  }
+ 
+
+  .top{
+    width: 94vw;
+}
+#top_img{
+  height: 5cm;
+}
+.anima-coll{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+
+}
+
+.acard img{
+  width: 100px;
+  height: 280px;
+  border-radius: 5px;
+}
+.acard img{
+  width: 180px;
+  height: 280px;
+  border-radius: 5px;
+}
+.acard{
+  width: 193px;
+}
+.anima-detail h3 {
+  width: 45vw;
+}
+}
+@media screen and (max-width:900px){
+
+  .serch{
+    display: none;
+  }
+  .menu_list{
+    display: block;
+  }
+  .anima-coll{
+    display: block;
+  }
+  #floater_anima{
+    display: none;
+  }
+  .cont_last{
+    display: none;
+  }
+  .btn{
+    display: none;
+  }
+ 
+
+  .top{
+    width: 94vw;
+}
+#top_img{
+  height: 5cm;
+}
+.anima-coll{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.acard img{
+  width: 100px;
+  height: 280px;
+  border-radius: 5px;
+}
+.acard img{
+  width: 180px;
+  height: 280px;
+  border-radius: 5px;
+}
+.acard{
+  width: 193px;
+}
+.anima-detail h3 {
+  width: 45vw;
+}
+}
+
+@media screen and (max-width:900px){
+
+  .serch{
+    display: none;
+  }
+  .menu_list{
+    display: block;
+  }
+  .anima-coll{
+    display: block;
+  }
+  #floater_anima{
+    display: none;
+  }
+  .cont_last{
+    display: none;
+  }
+  .btn{
+    display: none;
+  }
+ 
+
+  .top{
+    width: 94vw;
+}
+#top_img{
+  height: 5cm;
+}
+.anima-coll{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.acard img{
+  width: 100px;
+  height: 280px;
+  border-radius: 5px;
+}
+.acard img{
+  width: 180px;
+  height: 280px;
+  border-radius: 5px;
+}
+.acard{
+  width: 193px;
+}
+.anima-detail h3 {
+  width: 45vw;
+}
+}
+
+@media screen and (max-width:500px){
+
+  .serch{
+    display: none;
+  }
+  .menu_list{
+    display: block;
+  }
+  .anima-coll{
+    display: block;
+  }
+  #floater_anima{
+    display: none;
+  }
+  .cont_last{
+    display: none;
+  }
+  .btn{
+    display: none;
+  }
+ 
+
+  .top{
+    width: 94vw;
+}
+#top_img{
+  height: 5cm;
+}
+.anima-coll{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.acard img{
+  width: 100px;
+  height: 280px;
+  border-radius: 5px;
+}
+.acard img{
+  width: 180px;
+  height: 280px;
+  border-radius: 5px;
+}
+.acard{
+  width: 193px;
+}
+.anima-detail h3 {
+  width: 45vw;
+}
 }
